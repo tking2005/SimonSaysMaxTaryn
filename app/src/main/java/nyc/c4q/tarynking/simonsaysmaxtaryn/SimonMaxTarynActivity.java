@@ -77,7 +77,7 @@ public class SimonMaxTarynActivity extends AppCompatActivity implements View.OnC
     }
 
     public void playGame(boolean check) {
-        numberOfRounds++;
+       // numberOfRounds++;
         button_start.setText(String.valueOf(numberOfRounds));
         if (check == true) {
             int randomColorNum = chooseRandomColor();
@@ -104,7 +104,7 @@ public class SimonMaxTarynActivity extends AppCompatActivity implements View.OnC
         button_blue = (Button) findViewById(R.id.button_blue);
         button_red = (Button) findViewById(R.id.button_red);
         button_start = (Button) findViewById(R.id.button_start);
-        mytextView = (TextView) findViewById(R.id.textView);
+
         //resetButtonColors();
     }
 
